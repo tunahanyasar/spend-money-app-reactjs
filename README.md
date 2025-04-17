@@ -50,11 +50,13 @@ npm run dev
   * *data/*
     * *products.js*
   * *assets/*
-    *  *images/* 
-    * *money-logo.png*
-  * *App.jsx*
-  * *App.css*
-  * *main.jsx*
+    *  *screenshots/* 
+   * *App.jsx*
+   * *App.css*
+   * *main.jsx*
+* *public/*
+   * images
+
 * *index.html*
 * *package.json*
 
@@ -74,10 +76,9 @@ npm run dev
 4. ***src/data/***: Veri dosyaları
     * **products.js**: Ürün veritabanı
 
-5. ***src/assets/***: Statik dosyalar
-    * **money-logo.png**: Uygulama logosu
+5. ***src/assets/screenshots***: Sayfa çıktıları
 
-6. ***src/assets/images***: Ürünlerin resimleri
+6. ***public/images***: Ürünlerin resimleri ve logo
 
 7. ***App.css***: Tüm CSS özellikleri
 
