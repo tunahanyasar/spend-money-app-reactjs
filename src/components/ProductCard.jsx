@@ -86,7 +86,7 @@ const ProductCard = ({ product }) => {
     <div id={`product-${product.id}`} className="product-card">
       {/* Ürün görseli */}
       <img 
-        src={`/src/assets/images/${product.image}`} 
+        src={product.image} 
         alt={product.name}
         className="product-image"
       />

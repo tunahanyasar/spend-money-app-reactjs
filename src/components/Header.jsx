@@ -10,7 +10,7 @@ const Header = () => {
     <div className="header">
       {/* Sol kısım - Logo ve başlık */}
       <div className="header-left">
-        <img src="/src/assets/money-logo.png" alt="Money Logo" className="header-logo" />
+        <img src="/images/money-logo.png" alt="Money Logo" className="header-logo" />
         <h1 className="header-title">Spend Bill Gates' Money</h1>
       </div>
       {/* Orta kısım - Bakiye gösterimi */}
