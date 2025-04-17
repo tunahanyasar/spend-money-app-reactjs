@@ -6,6 +6,7 @@ Bill Gates'in parasını harcayabileceğiniz interaktif bir alışveriş simüla
 * **React**, **Vite**, **CSS3** ve **JavaScript** kullanılmıştır.
 * Context API ve React Hooks ile state yönetimi sağlanmıştır.
 
+Site Linki: [ https://spend-billgates-money-wd1u.vercel.app/ ] 
 ---
 
 ## :computer: Kullanım
@@ -23,6 +24,9 @@ cd spend-bill-gates-money
 3. Bağımlılıkları yükleyin
 ```bash
 npm install
+```
+```bash
+npm install react-router-dom
 ```
 
 4. Geliştirme sunucusunu başlatın
