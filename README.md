@@ -16,7 +16,7 @@ Site Linki: [ https://spend-billgates-money-wd1u.vercel.app/ ]
 git clone https://github.com/tunahanyasar/Spend-Billgates-Money.git
 ```
 
-2. Proje klasörüne gidin
+2. Proje klasöründe değilseniz klasöre gidin
 ```bash
 cd spend-bill-gates-money
 ```
