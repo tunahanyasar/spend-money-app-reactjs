@@ -17,7 +17,7 @@ git clone https://github.com/tunahanyasar/Spend-Billgates-Money.git
 
 2. Proje klasörüne gidin
 ```bash
-cd cd spend-bill-gates-money
+cd spend-bill-gates-money
 ```
 
 3. Bağımlılıkları yükleyin
