@@ -1,44 +1,51 @@
-# 💰 Bill Gates Money | React + Vite
+# 💰 Spend Money | React + Vite
 
-Bill Gates'in parasını harcayabileceğiniz interaktif bir alışveriş simülasyonu uygulamasıdır. React ve Vite kullanılarak geliştirilmiştir.
-* Bu proje, Patika Frontend Bootcamp'i için oluşturulan **Hafta-10 / React - Bill Gates Money** projesidir.
-* Modern ve responsive bir alışveriş simülasyonu uygulamasıdır.
-* **React**, **Vite**, **CSS3** ve **JavaScript** kullanılmıştır.
-* Context API ve React Hooks ile state yönetimi sağlanmıştır.
+[🇹🇷 Click for Turkish README](./README.tr.md)
 
-Site Linki: [ https://spend-billgates-money-wd1u.vercel.app/ ] 
+*Created on: April 17, 2025*
+
+* An interactive shopping simulation where you can spend virtual wealth. Built with React and Vite.
+* This project was created for Patika Frontend Bootcamp **Week-10 / Assignment-1 | React Spend Money**.
+* Modern and responsive shopping simulation application.
+* Built with **React**, **Vite**, **CSS3**, and **JavaScript**.
+* State management provided with Context API and React Hooks.
+
+---
+## 🌐 Live Demo
+
+Visit the live site: [View Live Demo](https://survey-form-html-psi.vercel.app/)
+
 ---
 
-## :computer: Kullanım
+## :computer: Installation & Usage
 
-1. Projeyi klonlayın
+1. Clone the repository:
 ```bash
-git clone https://github.com/tunahanyasar/Spend-Billgates-Money.git
+git clone https://github.com/tunahanyasar/spend-money-app-reactjs.git
 ```
 
-2. Proje klasöründe değilseniz klasöre gidin
+2. Navigate to the project folder:
 ```bash
-cd spend-bill-gates-money
+cd spend-money-app-reactjs
 ```
 
-3. Bağımlılıkları yükleyin
+3. Install dependencies:
 ```bash
 npm install
 ```
-```bash
-npm install react-router-dom
-```
 
-4. Geliştirme sunucusunu başlatın
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
+5. Open in your browser: [http://localhost:5173](http://localhost:5173)
+
 ---
 
-## 📜 Proje Yapısı
+## 📜 Project Structure
 
-:open_file_folder: **Klasörler;**
+:open_file_folder: **Folders:**
 * *src/*
   * *components/*
     * *Cart.jsx*
@@ -64,76 +71,76 @@ npm run dev
 * *index.html*
 * *package.json*
 
-1. ***src/components/***: React bileşenleri bu klasörde bulunur.
-    * **Cart.jsx**: Sepet içeriğini ve işlemlerini yöneten bileşen
-    * **Header.jsx**: Uygulama başlığı ve navigasyon menüsünü içeren bileşen
-    * **ProductCard.jsx**: Ürün kartı ve alım-satım işlemlerini içeren bileşen
-    * **ProductList.jsx**: Ürün listesini ve sayfalama işlemlerini yöneten bileşen
+1. ***src/components/***: React components are located here.
+    * **Cart.jsx**: Component that manages cart content and operations
+    * **Header.jsx**: Component containing application title and navigation menu
+    * **ProductCard.jsx**: Component containing product card and buy/sell operations
+    * **ProductList.jsx**: Component that manages product list and pagination operations
 
-2. ***src/pages/***: Sayfa bileşenleri
-    * **Home.jsx**: Ana sayfa ve proje açıklaması
-    * **Products.jsx**: Ürünler sayfası
+2. ***src/pages/***: Page components
+    * **Home.jsx**: Home page and project description
+    * **Products.jsx**: Products page
 
-3. ***src/context/***: Context API dosyaları
-    * **MoneyContext.jsx**: Bakiye ve sepet yönetimi için context
+3. ***src/context/***: Context API files
+    * **MoneyContext.jsx**: Context for balance and cart management
 
-4. ***src/data/***: Veri dosyaları
-    * **products.js**: Ürün veritabanı
+4. ***src/data/***: Data files
+    * **products.js**: Product database
 
-5. ***src/assets/screenshots***: Sayfa çıktıları
+5. ***src/assets/screenshots***: Page outputs
 
-6. ***public/images***: Ürünlerin resimleri ve logo
+6. ***public/images***: Product images and logo
 
-7. ***App.css***: Tüm CSS özellikleri
+7. ***App.css***: All CSS properties
 
-8. ***App.jsx***: Ana uygulama bileşeni ve routing yapısı
+8. ***App.jsx***: Main application component and routing structure
 ---
 
-## :star2: Özellikler
+## :star2: Features
 
-1. **Alışveriş Özellikleri**
-   - 100 milyar dolar başlangıç bakiyesi
-   - Ürün satın alma ve satma
-   - Sepete ekleme ve çıkarma
-   - Sepeti temizleme
-   - Basılı tutarak hızlı alım-satım yapabilme
-   - Ürün ismine tıklayarak ürün sayfasına yönlendirme
-   - Sepet içinde ürün silme butonu
+1. **Shopping Features**
+   - 100 billion dollar starting balance
+   - Product buying and selling
+   - Adding and removing from cart
+   - Clearing cart
+   - Quick buy/sell by holding buttons
+   - Clicking product name to navigate to product page
+   - Product delete button within cart
    
 2. **Modern UI/UX**
-   - Kullanıcı dostu arayüz
-   - Görsel geri bildirimler
-   - Temiz ve düzenli kod yapısı
-   - Animasyonlu geçişler
-   - Para formatı dönüşümleri
-   - Ürün kartı efektleri
+   - User-friendly interface
+   - Visual feedback
+   - Clean and organized code structure
+   - Animated transitions
+   - Currency format conversions
+   - Product card effects
 
 ---
 
-## 🔄 Son Güncellemeler
+## 🔄 Recent Updates
 
-1. **Sepet İyileştirmeleri**
-   - Boş sepet durumunda placeholder gösterimi
-   - Sepet içinde ürün silme butonu eklendi
-   - Sepet içinde ürün ismine tıklayarak ürün sayfasına yönlendirme
-   - Sepet içinde bakiye gösterimi
+1. **Cart Improvements**
+   - Placeholder display for empty cart
+   - Product delete button added within cart
+   - Clicking product name in cart to navigate to product page
+   - Balance display within cart
 
-2. **Alışveriş Deneyimi İyileştirmeleri**
-   - Basılı tutarak hızlı alım-satım yapabilme özelliği
-   - Ürün kartı tasarımı optimize edildi
-   - Görsel iyileştirmeler yapıldı
+2. **Shopping Experience Improvements**
+   - Quick buy/sell feature by holding buttons
+   - Product card design optimized
+   - Visual improvements made
 
-3. **Genel İyileştirmeler**
-   - Context API ile state yönetimi optimize edildi
-   - Sayfa kenar boşlukları düzenlendi
-   - Görsel tutarlılık sağlandı
-   - Kod yapısı temizlendi ve optimize edildi
+3. **General Improvements**
+   - State management optimized with Context API
+   - Page margins adjusted
+   - Visual consistency achieved
+   - Code structure cleaned and optimized
 
-## 💡 Kullanılan Yapılar | Kazanımlar
+## 💡 Technologies & Concepts
 
 **React:**
-* Component Mimarisi
-* Props Sistemi
+* Component Architecture
+* Props System
 * Context API
 * React Hooks (useState, useEffect, useRef)
 * Event Handling
@@ -150,99 +157,98 @@ npm run dev
 * Gradient Effects
 
 **JavaScript:**
-* ES6+ Özellikleri
-* Array Metodları
-* Zamanlayıcılar
+* ES6+ Features
+* Array Methods
+* Timers
 * Event Handling
 * State Management
-* Context API Kullanımı
+* Context API Usage
 
 ---
 
-## :paperclip: Ekran Görüntüleri
+## 🎮 How to Use?
 
-### Ana Sayfa
-![Ana Sayfa](src/assets/screenshots/home_page.png)
+1. Click "Start Spending" button from the home page.
+2. Add desired products to cart on the products page:
+   - Click "+" button or hold to add products
+   - Click "-" button or hold to remove products
 
-### Ürünler Sayfası
-![Ürünler](src/assets/screenshots/products_page.png)
-
-### Sepet
-![Sepet](src/assets/screenshots/cart_page.png)
-
----
-
-## 🎮 Nasıl Kullanılır?
-
-1. Ana sayfadan "Harcamaya Başla" butonuna tıklayın.
-2. Ürünler sayfasında istediğiniz ürünleri sepete ekleyin:
-   - "+" butonuna tıklayarak veya basılı tutarak ürün ekleyin
-   - "-" butonuna tıklayarak veya basılı tutarak ürün çıkarın
-
-3. Sepet içinde:
-   - Ürün ismine tıklayarak ürün sayfasına gidebilirsiniz
-   - Çöp kutusu ikonuna tıklayarak ürünü sepetten çıkarabilirsiniz
-   - Süpürge ikonuna tıklayarak sepeti temizleyebilirsiniz
-4. Bakiyeniz yetersiz olduğunda ürün satın alamazsınız.
-5. Sepetteki ürünleri satarak bakiyenizi artırabilirsiniz.
+3. Within the cart:
+   - Click product name to go to product page
+   - Click trash icon to remove product from cart
+   - Click broom icon to clear cart
+4. You cannot buy products when your balance is insufficient.
+5. You can increase your balance by selling products in the cart.
 
 ---
 
-## 🔍 Detaylı Açıklama
+## 🔍 Detailed Description
 
-### Proje Amacı ve Kapsamı
+### Project Purpose and Scope
 
-Bu proje, Bill Gates'in servetini görselleştirmek ve kullanıcıların bu serveti nasıl harcayabileceklerini simüle etmek amacıyla geliştirilmiştir. Kullanıcılar, 100 milyar dolar başlangıç bakiyesiyle çeşitli ürünleri satın alabilir, satabilir ve sepetlerini yönetebilirler.
+This project was developed to visualize virtual wealth and simulate how users can spend this wealth. Users can buy, sell, and manage their cart with various products using a 100 billion dollar starting balance.
 
-### Teknik Detaylar
+### Technical Details
 
-#### App.jsx - Ana Uygulama Bileşeni
+#### App.jsx - Main Application Component
 
-**App.jsx** dosyası, uygulamanın ana bileşenidir ve şu önemli işlevleri içerir:
+**App.jsx** file is the main component of the application and contains the following important functions:
 
-1. **Context Provider Entegrasyonu**: 
-   - `MoneyProvider` bileşeni ile tüm uygulamaya bakiye ve sepet yönetimi sağlanır
-   - Bu sayede her bileşen ayrı ayrı prop drilling yapmak zorunda kalmaz
+1. **Context Provider Integration**: 
+   - Balance and cart management is provided to the entire application through `MoneyProvider` component
+   - This way, each component doesn't have to do prop drilling separately
 
-2. **Routing Yapısı**:
-   - React Router kullanılarak sayfa yönlendirmeleri yapılır
-   - Ana sayfa (`/`), ürünler sayfası (`/products/:page`) ve sepet sayfası (`/cart`) route'ları tanımlanmıştır
-   - URL parametreleri ile sayfalama işlemi desteklenir
+2. **Routing Structure**:
+   - Page redirects are made using React Router
+   - Home page (`/`), products page (`/products/:page`), and cart page (`/cart`) routes are defined
+   - Pagination operation is supported with URL parameters
 
-3. **Layout Yapısı**:
-   - Ürünler ve sepet bileşenleri yan yana yerleştirilmiştir
-   - CSS Grid kullanılarak responsive bir düzen sağlanmıştır
+3. **Layout Structure**:
+   - Products and cart components are placed side by side
+   - Responsive layout is achieved using CSS Grid
 
-4. **Font Awesome Entegrasyonu**:
-   - `useEffect` hook'u ile Font Awesome ikonları dinamik olarak yüklenir
-   - Cleanup fonksiyonu ile bellek sızıntıları önlenir
+4. **Font Awesome Integration**:
+   - Font Awesome icons are loaded dynamically using `useEffect` hook
+   - Memory leaks are prevented with cleanup function
 
-5. **Alt Bileşenler**:
-   - `MoneyDisplay`: Bakiye gösterimi için özel bileşen
-   - `ProductsPageWrapper`: Ürünler sayfası için URL parametrelerini işleyen wrapper bileşen
+5. **Sub Components**:
+   - `MoneyDisplay`: Special component for balance display
+   - `ProductsPageWrapper`: Wrapper component that processes URL parameters for products page
 
+#### User Experience Improvements
+- **Hold Feature**: Hold feature is added to buy/sell buttons to enable users to make quick transactions.
+- **Visual Feedback**: Visual feedback is provided when buttons are clicked, products are added or removed, improving user experience.
 
+#### Responsive Design
+- **CSS Grid and Flexbox**: CSS Grid and Flexbox are used for page layout to achieve a design compatible with different screen sizes.
+- **Media Queries**: Special style definitions are made for different screen sizes to ensure smooth operation on mobile devices as well.
 
+### Future Developments
 
-#### Kullanıcı Deneyimi İyileştirmeleri
-- **Basılı Tutma Özelliği**: Alım-satım butonlarında basılı tutma özelliği eklenerek kullanıcıların hızlı işlem yapabilmesi sağlanmıştır.
-- **Görsel Geri Bildirimler**: Butonlara tıklandığında, ürün eklendiğinde veya çıkarıldığında görsel geri bildirimler sağlanarak kullanıcı deneyimi iyileştirilmiştir.
-
-#### Responsive Tasarım
-- **CSS Grid ve Flexbox**: Sayfa düzeni için CSS Grid ve Flexbox kullanılarak farklı ekran boyutlarına uyumlu bir tasarım elde edilmiştir.
-- **Media Queries**: Farklı ekran boyutları için özel stil tanımlamaları yapılarak mobil cihazlarda da sorunsuz çalışması sağlanmıştır.
-
-
-### Gelecek Geliştirmeler
-
-- **Yerel Depolama**: Sepet ve bakiye bilgilerinin tarayıcı yerel depolamasında saklanması
-- **Kategori Filtreleme**: Ürünlerin kategorilere göre filtrelenmesi
-- **Arama Özelliği**: Ürünlerde arama yapabilme
-- **Favori Ürünler**: Favori ürünleri kaydetme ve hızlı erişim
-- **İstatistikler**: Harcama istatistikleri ve grafikler
+- **Local Storage**: Storing cart and balance information in browser local storage
+- **Category Filtering**: Filtering products by categories
+- **Search Feature**: Ability to search in products
+- **Favorite Products**: Saving favorite products and quick access
+- **Statistics**: Spending statistics and graphs
 
 ---
 
-## 👤 İletişim
+## :paperclip: Screenshots
 
-Tunahan Yasar - [GitHub](https://github.com/tunahanyasar)
+### Home Page
+![Home Page](src/assets/screenshots/home_page.png)
+
+### Products Page
+![Products](src/assets/screenshots/products_page.png)
+
+### Cart
+![Cart](src/assets/screenshots/cart_page.png)
+
+---
+
+## 📞 Contact
+
+[Tunahan Yaşar](https://github.com/tunahanyasar)
+
+* GitHub: [@tunahanyasar](https://github.com/tunahanyasar)
+* LinkedIn: [Tunahan Yaşar](https://www.linkedin.com/in/tunahan-yasar/) 

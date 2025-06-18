@@ -11,7 +11,7 @@ const Header = () => {
       {/* Sol kısım - Logo ve başlık */}
       <div className="header-left">
         <img src="/images/money-logo.png" alt="Money Logo" className="header-logo" />
-        <h1 className="header-title">Spend Bill Gates' Money</h1>
+        <h1 className="header-title">Spend Money</h1>
       </div>
       {/* Orta kısım - Bakiye gösterimi */}
       <div className="money-display">

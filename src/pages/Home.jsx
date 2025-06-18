@@ -7,8 +7,8 @@ const Home = () => {
         <div className="project-description">
           <h2>Proje Hakkında</h2>
           <ul>
-            <li>Bu uygulama, Bill Gates'in servetini harcamanıza olanak tanıyan interaktif bir simülasyondur.</li>
-            <li>100 milyar dolar başlangıç bakiyesi ile alışverişe başlayabilirsiniz.</li>
+            <li>Bu uygulama, sanal bir serveti harcamanıza olanak tanıyan interaktif bir simülasyondur.</li>
+            <li>Yüksek bir başlangıç bakiyesi ile alışverişe başlayabilirsiniz.</li>
             <li>Çeşitli ürünleri sepetinize ekleyebilir veya çıkarabilirsiniz.</li>
             <li>Ürünleri tek tek veya hızlı bir şekilde toplu olarak alabilirsiniz.</li>
             <li>Sepetinizdeki ürünleri yönetebilir ve toplam harcamanızı görebilirsiniz.</li>
