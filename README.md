@@ -161,7 +161,7 @@ npm run dev
    - Page margins adjusted
    - Visual consistency achieved
    - Code structure cleaned and optimized
-
+---
 ## 💡 Technologies & Concepts
 
 **React:**

@@ -160,7 +160,7 @@ npm run dev
    - Sayfa kenar boşlukları düzenlendi
    - Görsel tutarlılık sağlandı
    - Kod yapısı temizlendi ve optimize edildi
-
+---
 ## 💡 Kullanılan Yapılar | Kazanımlar
 
 **React:**
