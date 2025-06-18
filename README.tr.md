@@ -13,7 +13,7 @@
 ---
 ## 🌐 Canlı Demo
 
-Canlı siteyi ziyaret edin: [View Live Demo](https://survey-form-html-psi.vercel.app/)
+Canlı siteyi ziyaret edin: [Spend Money | React](https://spend-money-app-reactjs.vercel.app/)
 
 ---
 
