@@ -41,7 +41,31 @@ npm install react-router-dom
 ```bash
 npm run dev
 ```
+---
+## 🎮 Nasıl Kullanılır?
 
+1. **Alışverişe Başlayın**: Ana sayfadan "Harcamaya Başla" butonuna tıklayarak alışveriş deneyiminizi başlatın.
+
+2. **Sepete Ürün Ekleyin**: Ürünler sayfasında istediğiniz ürünleri sepete ekleyin:
+   - **"+"** butonuna tıklayarak veya **basılı tutarak** hızlıca birden fazla ürün ekleyin
+   - **"-"** butonuna tıklayarak veya **basılı tutarak** hızlıca ürün çıkarın
+   - Ürün eklerken veya çıkarırken bakiyenizin gerçek zamanlı olarak güncellendiğini izleyin
+
+3. **Sepetinizi Yönetin**: 
+   - **Ürünleri Görüntüleyin**: Sepetteki herhangi bir ürün ismine tıklayarak detay sayfasına gidin
+   - **Ürünleri Çıkarın**: **Çöp kutusu ikonuna** tıklayarak belirli bir ürünü sepetinizden çıkarın
+   - **Sepeti Temizleyin**: **Süpürge ikonuna** tıklayarak tüm sepetinizi tamamen temizleyin
+   - **Bakiyenizi İzleyin**: Mevcut bakiyeniz sayfanın üst kısmında görüntülenir
+
+4. **Alışveriş Kuralları**:
+   - **Yetersiz Bakiye**: Bakiyeniz yetersiz olduğunda ürün satın alamazsınız
+   - **Ürün Satma**: Sepetinizdeki ürünleri satarak bakiyenizi artırabilirsiniz
+   - **Gerçek Zamanlı Güncellemeler**: Tüm işlemler bakiyenizi ve sepetinizi anında günceller
+
+5. **Navigasyon**:
+   - Ana Sayfa, Ürünler ve Sepet sayfaları arasında geçiş yapmak için navigasyon menüsünü kullanın
+   - Mevcut sayfa navigasyonda vurgulanır
+   - Bakiyeniz her zaman kolay erişim için header'da görünür
 ---
 
 ## 📜 Proje Yapısı

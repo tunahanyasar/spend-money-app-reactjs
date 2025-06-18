@@ -42,6 +42,32 @@ npm run dev
 5. Open in your browser: [http://localhost:5173](http://localhost:5173)
 
 ---
+## 🎮 How to Use?
+
+1. **Start Shopping**: Click the "Start Spending" button from the home page to begin your shopping experience.
+
+2. **Add Products to Cart**: On the products page, add your desired items to the cart:
+   - Click the **"+"** button or **hold it down** to quickly add multiple products
+   - Click the **"-"** button or **hold it down** to quickly remove products
+   - Watch your balance update in real-time as you add or remove items
+
+3. **Manage Your Cart**: 
+   - **View Products**: Click on any product name in the cart to navigate to its detailed page
+   - **Remove Items**: Click the **trash icon** to remove a specific product from your cart
+   - **Clear Cart**: Click the **broom icon** to completely clear your entire cart
+   - **Monitor Balance**: Your current balance is displayed at the top of the page
+
+4. **Shopping Rules**:
+   - **Insufficient Funds**: You cannot purchase products when your balance is insufficient
+   - **Selling Products**: You can increase your balance by selling products back from your cart
+   - **Real-time Updates**: All transactions update your balance and cart instantly
+
+5. **Navigation**:
+   - Use the navigation menu to switch between Home, Products, and Cart pages
+   - The current page is highlighted in the navigation
+   - Your balance is always visible in the header for easy reference
+
+---
 
 ## 📜 Project Structure
 
@@ -164,21 +190,7 @@ npm run dev
 * State Management
 * Context API Usage
 
----
 
-## 🎮 How to Use?
-
-1. Click "Start Spending" button from the home page.
-2. Add desired products to cart on the products page:
-   - Click "+" button or hold to add products
-   - Click "-" button or hold to remove products
-
-3. Within the cart:
-   - Click product name to go to product page
-   - Click trash icon to remove product from cart
-   - Click broom icon to clear cart
-4. You cannot buy products when your balance is insufficient.
-5. You can increase your balance by selling products in the cart.
 
 ---
 
