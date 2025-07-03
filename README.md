@@ -33,6 +33,9 @@ cd spend-money-app-reactjs
 ```bash
 npm install
 ```
+```bash
+npm install react-router-dom
+```
 
 4. Start the development server:
 ```bash
