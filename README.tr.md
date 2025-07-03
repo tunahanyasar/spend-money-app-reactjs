@@ -41,6 +41,8 @@ npm install react-router-dom
 ```bash
 npm run dev
 ```
+5. Tarayıcıda açın: http://localhost:5173
+
 ---
 ## 🎮 Nasıl Kullanılır?
 
